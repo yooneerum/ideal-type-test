@@ -1,0 +1,54 @@
+:root {
+  /* -- color tokens : 중성 파스텔 (크림 + 연두민트) -- */
+  --cream: #fbf7ee;
+  --cream-deep: #f3ecdd;
+  --mint: #cfe8d5;
+  --mint-deep: #a9d4b5;
+  --mint-shadow: #8fc09d;
+  --peach: #f6ddc9;
+  --lavender: #e3def1;
+  --ink: #5b5347;
+  --ink-soft: #8a8071;
+
+  --font-display: "Jua", "Gowun Dodum", sans-serif;
+  --font-body: "Gowun Dodum", "Jua", sans-serif;
+
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

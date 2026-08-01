@@ -1,0 +1,115 @@
+.question-page {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 32px 20px;
+  background: radial-gradient(
+    circle at 50% 0%,
+    var(--cream-deep) 0%,
+    var(--cream) 60%
+  );
+}
+
+.question-page__inner {
+  position: relative;
+  z-index: 1;
+  width: min(480px, 100%);
+}
+
+.question-page__progress-track {
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--cream-deep);
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.question-page__progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--mint-deep);
+  transition: width 0.35s ease;
+}
+
+.question-page__progress-label {
+  text-align: center;
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin: 0 0 28px;
+}
+
+.question-page__eyebrow {
+  text-align: center;
+  font-size: 14px;
+  color: var(--mint-shadow);
+  margin: 0 0 8px;
+}
+
+.question-page__title {
+  text-align: center;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0 0 28px;
+}
+
+.question-page__options {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.option-card {
+  position: relative;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  padding: 22px 24px;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--ink);
+  background: #fffdf8;
+  border-radius: 28px 26px 30px 24px / 26px 30px 24px 28px;
+  box-shadow: 0 10px 24px -14px rgba(139, 122, 89, 0.35),
+    0 0 0 2px transparent inset;
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    background 0.15s ease;
+}
+
+.option-card--a {
+  border-left: 6px solid var(--mint-deep);
+}
+
+.option-card--b {
+  border-left: 6px solid var(--peach);
+}
+
+.option-card:hover {
+  transform: translateY(-2px) scale(1.015);
+  box-shadow: 0 14px 28px -14px rgba(139, 122, 89, 0.4);
+}
+
+.option-card:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+.option-card:focus-visible {
+  outline: 3px solid var(--lavender);
+  outline-offset: 2px;
+}
+
+.question-page__vs {
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin: -2px 0;
+  letter-spacing: 0.08em;
+}
