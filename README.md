@@ -12,6 +12,8 @@
 정답을 알려주는 테스트가 아니라,
 나도 몰랐던 나를 발견하는 여정이 되었으면 합니다.
 
+https://ideal-type-test-g5r7hq2sx-yooneerums-projects.vercel.app/
+
 
 
 # 🧠 심리 모델(Mental Model) 기반 이상형 분석
