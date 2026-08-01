@@ -72,7 +72,7 @@ export default function ResultPage({
         </section>
 
         <section className="result-block">
-          <h3>2. 잠재가치 축 점수</h3>
+          <h3>2. 잠재가치 점수</h3>
           <ul className="axis-list">
             {sortedAxes.map(([axis, score]) => (
               <li key={axis}>

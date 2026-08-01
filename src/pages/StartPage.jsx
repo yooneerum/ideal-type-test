@@ -9,7 +9,7 @@ export default function StartPage({ onStart }) {
       <div className="blob blob--mint-small" aria-hidden="true" />
 
       <main className="start-card">
-        <p className="start-card__eyebrow">몽글몽글 심리테스트</p>
+        <p className="start-card__eyebrow">나메의 몽글몽글 심리테스트</p>
         <h1 className="start-card__title">
           나의 이상형
           <br />
