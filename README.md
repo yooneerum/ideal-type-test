@@ -1,3 +1,5 @@
+# 🧠 심리 모델(Mental Model) 기반 이상형 분석
+
 🌿 당신의 이상형은 어떤 사람인가요?
 
 이 테스트는 단순히 성격 유형을 맞히는 테스트가 아닙니다.
@@ -14,9 +16,6 @@
 
 https://ideal-type-test-g5r7hq2sx-yooneerums-projects.vercel.app/
 
-
-
-# 🧠 심리 모델(Mental Model) 기반 이상형 분석
 
 이 프로젝트는 단순히 "어떤 사람을 좋아하는가"를 맞추는 심리테스트가 아닙니다.
 
