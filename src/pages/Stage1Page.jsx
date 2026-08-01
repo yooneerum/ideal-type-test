@@ -7,16 +7,19 @@ export default function Stage1Page({ question, index, total, onAnswer }) {
   return (
     <div className="question-page">
       <div className="question-page__inner">
+
+        <h2 className="result-page__title">Step 1</h2>
+        <p className="question-page__progress-label">
+          {index + 1} / {total} · 나는 어떤 사람에게 끌리는가
+        </p>
+
         <div className="question-page__progress-track">
           <div
             className="question-page__progress-fill"
             style={{ width: `${progress}%` }}
           />
         </div>
-        <p className="question-page__progress-label">
-          {index + 1} / {total} · 나는 어떤 사람에게 끌리는가
-        </p>
-
+        
         <p className="question-page__eyebrow">Q{index + 1}</p>
         <h2 className="question-page__title">{question.title}</h2>
 

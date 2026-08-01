@@ -9,15 +9,18 @@ export default function Stage2Page({ question, index, total, onAnswer }) {
   return (
     <div className="question-page">
       <div className="question-page__inner">
+        
+        <h2 className="result-page__title">Step 2</h2>
+        <p className="question-page__progress-label">
+          {index + 1} / {total} · 왜 그런 사람에게 끌리는가
+        </p>
+
         <div className="question-page__progress-track">
           <div
             className="question-page__progress-fill"
             style={{ width: `${progress}%` }}
           />
         </div>
-        <p className="question-page__progress-label">
-          {index + 1} / {total} · 왜 그런 사람에게 끌리는가
-        </p>
 
         <p className="question-page__eyebrow">
           {domain.emoji} {domain.name}
